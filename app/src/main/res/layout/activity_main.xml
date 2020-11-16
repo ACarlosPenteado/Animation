@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <GridLayout
+        android:layout_width="344dp"
+        android:layout_height="558dp"
+        android:layout_marginTop="24dp"
+        android:columnCount="2"
+        android:rowCount="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <Button
+            android:id="@+id/android1"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="blink" />
+
+        <Button
+            android:id="@+id/android2"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="bounce" />
+
+        <Button
+            android:id="@+id/android3"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="mixed" />
+
+        <Button
+            android:id="@+id/android4"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="rotate" />
+
+        <Button
+            android:id="@+id/android5"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="sample" />
+
+        <Button
+            android:id="@+id/android0"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="move" />
+
+        <Button
+            android:id="@+id/android01"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="sequencial" />
+
+        <Button
+            android:id="@+id/android02"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="translate" />
+
+        <Button
+            android:id="@+id/android03"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="scale" />
+
+        <Button
+            android:id="@+id/android04"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="alpha" />
+
+        <Button
+            android:id="@+id/android6"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="fadein" />
+
+        <Button
+            android:id="@+id/android7"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="fadeout" />
+
+        <Button
+            android:id="@+id/android8"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="lefttoright" />
+
+        <Button
+            android:id="@+id/android9"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="righttoleft" />
+
+        <Button
+            android:id="@+id/android10"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="slide_left" />
+
+        <Button
+            android:id="@+id/android11"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="slide_right" />
+
+        <Button
+            android:id="@+id/android12"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="slide_up" />
+
+        <Button
+            android:id="@+id/android13"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="slide_down" />
+
+        <Button
+            android:id="@+id/android14"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="zoomin" />
+
+        <Button
+            android:id="@+id/android15"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="zoomout" />
+
+        <Button
+            android:id="@+id/android16"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="zoom_fadein" />
+
+        <Button
+            android:id="@+id/android17"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="zoom_fadeout" />
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
